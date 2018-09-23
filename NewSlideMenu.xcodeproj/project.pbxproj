@@ -12,6 +12,12 @@
 		FB41098F2155E36800F90EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB41098D2155E36800F90EA4 /* Main.storyboard */; };
 		FB4109912155E36800F90EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4109902155E36800F90EA4 /* Assets.xcassets */; };
 		FB4109942155E36800F90EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4109922155E36800F90EA4 /* LaunchScreen.storyboard */; };
+		FB41099E2155E3BB00F90EA4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB41099D2155E3BB00F90EA4 /* SWRevealViewController.m */; };
+		FB4109A02155E5FB00F90EA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41099F2155E5FB00F90EA4 /* HomeViewController.swift */; };
+		FB4109A22155E80900F90EA4 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109A12155E80900F90EA4 /* MenuController.swift */; };
+		FB4109A42155EDB600F90EA4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109A32155EDB600F90EA4 /* MenuCell.swift */; };
+		FB4109A621570EB000F90EA4 /* MEssageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109A521570EB000F90EA4 /* MEssageViewController.swift */; };
+		FB4109A82157BE6200F90EA4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109A72157BE6200F90EA4 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,14 @@
 		FB4109902155E36800F90EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4109932155E36800F90EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4109952155E36800F90EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB41099B2155E3BA00F90EA4 /* NewSlideMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewSlideMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		FB41099C2155E3BB00F90EA4 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FB41099D2155E3BB00F90EA4 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FB41099F2155E5FB00F90EA4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FB4109A12155E80900F90EA4 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FB4109A32155EDB600F90EA4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		FB4109A521570EB000F90EA4 /* MEssageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEssageViewController.swift; sourceTree = "<group>"; };
+		FB4109A72157BE6200F90EA4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +70,18 @@
 			children = (
 				FB4109892155E36800F90EA4 /* AppDelegate.swift */,
 				FB41098B2155E36800F90EA4 /* ViewController.swift */,
+				FB41099F2155E5FB00F90EA4 /* HomeViewController.swift */,
+				FB4109A12155E80900F90EA4 /* MenuController.swift */,
+				FB4109A72157BE6200F90EA4 /* GradientView.swift */,
 				FB41098D2155E36800F90EA4 /* Main.storyboard */,
+				FB4109A32155EDB600F90EA4 /* MenuCell.swift */,
+				FB41099C2155E3BB00F90EA4 /* SWRevealViewController.h */,
+				FB41099D2155E3BB00F90EA4 /* SWRevealViewController.m */,
+				FB41099B2155E3BA00F90EA4 /* NewSlideMenu-Bridging-Header.h */,
 				FB4109902155E36800F90EA4 /* Assets.xcassets */,
 				FB4109922155E36800F90EA4 /* LaunchScreen.storyboard */,
 				FB4109952155E36800F90EA4 /* Info.plist */,
+				FB4109A521570EB000F90EA4 /* MEssageViewController.swift */,
 			);
 			path = NewSlideMenu;
 			sourceTree = "<group>";
@@ -96,6 +118,7 @@
 				TargetAttributes = {
 					FB4109852155E36800F90EA4 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -135,8 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4109A22155E80900F90EA4 /* MenuController.swift in Sources */,
+				FB4109A621570EB000F90EA4 /* MEssageViewController.swift in Sources */,
 				FB41098C2155E36800F90EA4 /* ViewController.swift in Sources */,
+				FB4109A42155EDB600F90EA4 /* MenuCell.swift in Sources */,
 				FB41098A2155E36800F90EA4 /* AppDelegate.swift in Sources */,
+				FB41099E2155E3BB00F90EA4 /* SWRevealViewController.m in Sources */,
+				FB4109A82157BE6200F90EA4 /* GradientView.swift in Sources */,
+				FB4109A02155E5FB00F90EA4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ85T79854;
 				INFOPLIST_FILE = NewSlideMenu/Info.plist;
@@ -291,6 +321,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = volumelabs.NewSlideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewSlideMenu/NewSlideMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQ85T79854;
 				INFOPLIST_FILE = NewSlideMenu/Info.plist;
@@ -309,6 +342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = volumelabs.NewSlideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewSlideMenu/NewSlideMenu-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
