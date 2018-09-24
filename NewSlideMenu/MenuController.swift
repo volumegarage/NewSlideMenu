@@ -68,6 +68,16 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 
                 revealViewController.pushFrontViewController(newFrontViewController, animated: true)
             }
+        
+        
+        if cell.menuLabel.text! == "Destinations"
+        {
+            let mainStoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let desController = mainStoryboard.instantiateViewController(withIdentifier: "GreenbeltAttractionsTableViewController") as! GreenbeltAttractionsTableViewController
+            let newFrontViewController = UINavigationController.init(rootViewController:desController)
+            
+            revealViewController.pushFrontViewController(newFrontViewController, animated: true)
+        }
             
     }
     

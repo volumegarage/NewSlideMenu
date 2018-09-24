@@ -18,6 +18,7 @@
 		FB4109A42155EDB600F90EA4 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109A32155EDB600F90EA4 /* MenuCell.swift */; };
 		FB4109A621570EB000F90EA4 /* MEssageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109A521570EB000F90EA4 /* MEssageViewController.swift */; };
 		FB4109A82157BE6200F90EA4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109A72157BE6200F90EA4 /* GradientView.swift */; };
+		FBC12E592159049000C7011C /* GreenbeltAttractionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC12E582159049000C7011C /* GreenbeltAttractionsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FB4109A32155EDB600F90EA4 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		FB4109A521570EB000F90EA4 /* MEssageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEssageViewController.swift; sourceTree = "<group>"; };
 		FB4109A72157BE6200F90EA4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		FBC12E582159049000C7011C /* GreenbeltAttractionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenbeltAttractionsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				FB41099F2155E5FB00F90EA4 /* HomeViewController.swift */,
 				FB4109A12155E80900F90EA4 /* MenuController.swift */,
 				FB4109A72157BE6200F90EA4 /* GradientView.swift */,
+				FBC12E582159049000C7011C /* GreenbeltAttractionsTableViewController.swift */,
 				FB41098D2155E36800F90EA4 /* Main.storyboard */,
 				FB4109A32155EDB600F90EA4 /* MenuCell.swift */,
 				FB41099C2155E3BB00F90EA4 /* SWRevealViewController.h */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4109A22155E80900F90EA4 /* MenuController.swift in Sources */,
+				FBC12E592159049000C7011C /* GreenbeltAttractionsTableViewController.swift in Sources */,
 				FB4109A621570EB000F90EA4 /* MEssageViewController.swift in Sources */,
 				FB41098C2155E36800F90EA4 /* ViewController.swift in Sources */,
 				FB4109A42155EDB600F90EA4 /* MenuCell.swift in Sources */,
