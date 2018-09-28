@@ -72,12 +72,16 @@ class MenuController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         if cell.menuLabel.text! == "Destinations"
         {
+
             let mainStoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let desController = mainStoryboard.instantiateViewController(withIdentifier: "GreenbeltAttractionsTableViewController") as! GreenbeltAttractionsTableViewController
+            let desController = mainStoryboard.instantiateViewController(withIdentifier: "GreenbeltAttractions") as! GreenbeltAttractionsViewController
+            
             let newFrontViewController = UINavigationController.init(rootViewController:desController)
             
             revealViewController.pushFrontViewController(newFrontViewController, animated: true)
         }
+        
+        tableView.deselectRow(at: indexPath, animated: true) // Deselects row when selected.
             
     }
     

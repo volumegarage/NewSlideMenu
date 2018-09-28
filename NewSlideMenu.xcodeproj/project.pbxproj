@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB18F0D5215DB90A0058578D /* GreenbeltAttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18F0D4215DB90A0058578D /* GreenbeltAttractionsViewController.swift */; };
 		FB41098A2155E36800F90EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109892155E36800F90EA4 /* AppDelegate.swift */; };
 		FB41098C2155E36800F90EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41098B2155E36800F90EA4 /* ViewController.swift */; };
 		FB41098F2155E36800F90EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB41098D2155E36800F90EA4 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB18F0D4215DB90A0058578D /* GreenbeltAttractionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenbeltAttractionsViewController.swift; sourceTree = "<group>"; };
 		FB4109862155E36800F90EA4 /* NewSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4109892155E36800F90EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB41098B2155E36800F90EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		FB41097D2155E36800F90EA4 = {
 			isa = PBXGroup;
 			children = (
+				FB18F0D4215DB90A0058578D /* GreenbeltAttractionsViewController.swift */,
 				FB4109882155E36800F90EA4 /* NewSlideMenu */,
 				FB4109872155E36800F90EA4 /* Products */,
 			);
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB18F0D5215DB90A0058578D /* GreenbeltAttractionsViewController.swift in Sources */,
 				FB4109A22155E80900F90EA4 /* MenuController.swift in Sources */,
 				FBC12E592159049000C7011C /* GreenbeltAttractionsTableViewController.swift in Sources */,
 				FB4109A621570EB000F90EA4 /* MEssageViewController.swift in Sources */,
