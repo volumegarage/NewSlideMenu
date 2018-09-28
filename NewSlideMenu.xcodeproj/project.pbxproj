@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FB18F0D5215DB90A0058578D /* GreenbeltAttractionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18F0D4215DB90A0058578D /* GreenbeltAttractionsViewController.swift */; };
+		FB18F0D7215DBEFD0058578D /* GreenbeltAttractionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18F0D6215DBEFD0058578D /* GreenbeltAttractionsTableViewCell.swift */; };
+		FB3D6697215E438C00C4B4B5 /* AttractionsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D6696215E438C00C4B4B5 /* AttractionsTableView.swift */; };
+		FB3D6699215E469C00C4B4B5 /* GreenbeltTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3D6698215E469C00C4B4B5 /* GreenbeltTabBar.swift */; };
 		FB41098A2155E36800F90EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4109892155E36800F90EA4 /* AppDelegate.swift */; };
 		FB41098C2155E36800F90EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41098B2155E36800F90EA4 /* ViewController.swift */; };
 		FB41098F2155E36800F90EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB41098D2155E36800F90EA4 /* Main.storyboard */; };
@@ -24,6 +27,9 @@
 
 /* Begin PBXFileReference section */
 		FB18F0D4215DB90A0058578D /* GreenbeltAttractionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenbeltAttractionsViewController.swift; sourceTree = "<group>"; };
+		FB18F0D6215DBEFD0058578D /* GreenbeltAttractionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenbeltAttractionsTableViewCell.swift; sourceTree = "<group>"; };
+		FB3D6696215E438C00C4B4B5 /* AttractionsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionsTableView.swift; sourceTree = "<group>"; };
+		FB3D6698215E469C00C4B4B5 /* GreenbeltTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenbeltTabBar.swift; sourceTree = "<group>"; };
 		FB4109862155E36800F90EA4 /* NewSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4109892155E36800F90EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB41098B2155E36800F90EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +62,6 @@
 		FB41097D2155E36800F90EA4 = {
 			isa = PBXGroup;
 			children = (
-				FB18F0D4215DB90A0058578D /* GreenbeltAttractionsViewController.swift */,
 				FB4109882155E36800F90EA4 /* NewSlideMenu */,
 				FB4109872155E36800F90EA4 /* Products */,
 			);
@@ -79,6 +84,7 @@
 				FB4109A12155E80900F90EA4 /* MenuController.swift */,
 				FB4109A72157BE6200F90EA4 /* GradientView.swift */,
 				FBC12E582159049000C7011C /* GreenbeltAttractionsTableViewController.swift */,
+				FB18F0D4215DB90A0058578D /* GreenbeltAttractionsViewController.swift */,
 				FB41098D2155E36800F90EA4 /* Main.storyboard */,
 				FB4109A32155EDB600F90EA4 /* MenuCell.swift */,
 				FB41099C2155E3BB00F90EA4 /* SWRevealViewController.h */,
@@ -88,6 +94,9 @@
 				FB4109922155E36800F90EA4 /* LaunchScreen.storyboard */,
 				FB4109952155E36800F90EA4 /* Info.plist */,
 				FB4109A521570EB000F90EA4 /* MEssageViewController.swift */,
+				FB18F0D6215DBEFD0058578D /* GreenbeltAttractionsTableViewCell.swift */,
+				FB3D6696215E438C00C4B4B5 /* AttractionsTableView.swift */,
+				FB3D6698215E469C00C4B4B5 /* GreenbeltTabBar.swift */,
 			);
 			path = NewSlideMenu;
 			sourceTree = "<group>";
@@ -168,9 +177,12 @@
 				FB4109A22155E80900F90EA4 /* MenuController.swift in Sources */,
 				FBC12E592159049000C7011C /* GreenbeltAttractionsTableViewController.swift in Sources */,
 				FB4109A621570EB000F90EA4 /* MEssageViewController.swift in Sources */,
+				FB3D6697215E438C00C4B4B5 /* AttractionsTableView.swift in Sources */,
 				FB41098C2155E36800F90EA4 /* ViewController.swift in Sources */,
 				FB4109A42155EDB600F90EA4 /* MenuCell.swift in Sources */,
+				FB18F0D7215DBEFD0058578D /* GreenbeltAttractionsTableViewCell.swift in Sources */,
 				FB41098A2155E36800F90EA4 /* AppDelegate.swift in Sources */,
+				FB3D6699215E469C00C4B4B5 /* GreenbeltTabBar.swift in Sources */,
 				FB41099E2155E3BB00F90EA4 /* SWRevealViewController.m in Sources */,
 				FB4109A82157BE6200F90EA4 /* GradientView.swift in Sources */,
 				FB4109A02155E5FB00F90EA4 /* HomeViewController.swift in Sources */,
